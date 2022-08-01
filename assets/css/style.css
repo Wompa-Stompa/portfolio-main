@@ -1,0 +1,163 @@
+body {
+    background-color: rgba(255, 255, 255, 0.659);
+  }
+  
+  h1 {
+    color: rgb(156, 153, 153);
+    margin-right: 20px;
+  }
+
+  @font-face {
+    font-family: 'agelastregular';
+    src: url('agelast-webfont.woff2') format('woff2'),
+         url('agelast-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'delightregular';
+    src: url('delight-webfont.woff2') format('woff2'),
+         url('delight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+  background-image: url("cyberback2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #6a6b6b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3b3b3b;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #949393;
+  padding: 20px;
+}
+
+
+ .container {
+   border: 2px solid black;
+   padding: 25px;
+   background: url(eclps.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   }
+
+   <style>
+
+  
+    .img{
+       max-width: 100%;
+       max-height: 100%;
+       display: block; 
+   }
+   .box{
+      padding-top: 20px;
+       width: 700px; 
+       height: 300px;       
+       border: 5px solid black;
+   }    
+   .box.large{
+     width: 800px;
+     height: 400px;
+   }
+   .box.small{
+       height: 100px;
+   }
+   </style>
+
+
+
+#link {
+  padding-left: 20px;
+  padding-top: 100px;
+  margin: 7px;
+}
+
+#image {
+  padding: 0;
+  margin: 0;
+  align-content: center;
+}
+
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+
+form { 
+  margin: 0 auto; 
+  width:250px;
+  }
+
+
+  .runbud {
+    margin-bottom: 10px;
+    margin-top: auto;
+    width: 600px;
+    height:289px;
+    display:block;
+    background-image: url('../images/runbud.jpg')
+   }
+   
+   .runbud:hover {
+      background-image: url('../images/runbudhover.jpg')
+   }
+
+   .notyet {
+    margin-bottom: 10px;
+    margin-top: auto;
+    width: 600px;
+    height:289px;
+    display:block;
+    background-image: url('../images/eclps.jpeg')
+   }
+   
+   .notyet:hover {
+      background-image: url('../images/eclpshover.jpeg')
+   }
+
+   
+  .recordswap {
+    margin-bottom: 10px;
+    margin-top: auto;
+    width: 600px;
+    height:289px;
+    display:block;
+    background-image: url('../images/recswap.jpg')
+   }
+   
+   .recordswap:hover {
+      background-image: url('../images/recordSwapHover.jpg')
+   }

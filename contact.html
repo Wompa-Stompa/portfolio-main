@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+ 
+    <style>@font-face {
+     font-family: agelastregular;
+     src: url(assets/fonts/agelast-webfont.woff);
+   }
+   </style>
+
+   <link rel="stylesheet" type="text/css" href='assets/css/style.css'>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>Contact Chris</title>
+       <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+       <a id=link href="about.html"><img src="assets/images/unvisitabout.jpg" 
+        onmouseover="this.src='assets/images/visitedabout.jpg'"
+        onmouseout="this.src='assets/images/unvisitabout.jpg'" /></A>
+    
+      <a id=link href="mywork.html"><img src="assets/images/unvisitmywork.jpg" 
+          onmouseover="this.src='assets/images/visitedmywork.jpg'"
+          onmouseout="this.src='assets/images/unvisitmywork.jpg'" /></A>   
+
+
+<div class="w3-container">
+ <h1 style="padding-top: 70px; padding-left: 30px; padding-right: 100px; font-family: agelastregular; color: black;">Email</h1>
+  <p style="font-family: agelastregular;padding-left: 5px; padding-right: 100px; font-weight: 999; font-size: larger;">
+chavothewonderdog@gmail.com
+
+  </p>
+  <h1 style="font-family: agelastregular;padding-left: 30px; padding-right: 100px; color: black;">Phone</h1>
+  <p style="font-family: agelastregular; padding-left: 5px; padding-right: 100px; font-size: larger;"><b>
+615 282 9622
+    </b>
+  </p>
+</div>
+
+</style>
+</head>
+<body>
+
+<h3 style="padding-left: 30px; padding-right: 100px;">Contact Form</h3>
+
+<div style="font-family: agelastregular;">
+<div class= "container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Your message here!" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
